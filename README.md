@@ -17,5 +17,5 @@
   -h show help page
   ```
 # Demo
-
+[![asciicast](https://asciinema.org/a/qApEBaU8PpN0ZWapuMtUZsQ8n.svg)](https://asciinema.org/a/qApEBaU8PpN0ZWapuMtUZsQ8n)
 
