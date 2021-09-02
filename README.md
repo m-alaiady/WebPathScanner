@@ -1,4 +1,5 @@
-![Maintainer](https://img.shields.io/badge/Maintainer-malaiady-blue)
+[![made-with-sphinx-doc](https://img.shields.io/badge/Made%20with-Sphinx-1f425f.svg)](https://www.sphinx-doc.org/)
+
 
 ![WebPathScanner](https://user-images.githubusercontent.com/84629651/131908917-27ec946a-2a39-47f1-bd72-36ab35582696.png)
        
