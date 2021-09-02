@@ -1,4 +1,4 @@
-#Description:
+# Description:
   the WebPathScanner is a web-based security tool that try to find some interesting files and folder
   
 Usage:
