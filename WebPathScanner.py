@@ -19,14 +19,15 @@ output_path = ''
 
 # logo
 print(Fore.LIGHTGREEN_EX + '''
- __          __  _     _____  _
- \ \        / / | |   |  __ \(_)
-  \ \  /\  / /__| |__ | |  | |_ _ __
-   \ \/  \/ / _ \ '_ \| |  | | | '__|
-    \  /\  /  __/ |_) | |__| | | |
-     \/  \/ \___|_.__/|_____/|_|_|
+
+ __          __  _     _____      _   _      _____                                 
+ \ \        / / | |   |  __ \    | | | |    / ____|                                
+  \ \  /\  / /__| |__ | |__) |_ _| |_| |__ | (___   ___ __ _ _ __  _ __   ___ _ __ 
+   \ \/  \/ / _ \ '_ \|  ___/ _` | __| '_ \ \___ \ / __/ _` | '_ \| '_ \ / _ \ '__|
+    \  /\  /  __/ |_) | |  | (_| | |_| | | |____) | (_| (_| | | | | | | |  __/ |   
+     \/  \/ \___|_.__/|_|   \__,_|\__|_| |_|_____/ \___\__,_|_| |_|_| |_|\___|_|   
 ''' + Style.RESET_ALL)
-print('Coded by: ' + Fore.LIGHTCYAN_EX + 'm-alaiady\t\t\t' + Style.RESET_ALL + Fore.LIGHTYELLOW_EX + 'v1.0' + Style.RESET_ALL + '\n')
+print('Coded by: ' + Fore.LIGHTCYAN_EX + 'm-alaiady\t\t\t\t\t\t\t\t' + Style.RESET_ALL + Fore.LIGHTYELLOW_EX + 'v1.0' + Style.RESET_ALL + '\n')
 
 # counting the payloads
 #for line in open(payload_path): count += 1
