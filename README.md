@@ -1,14 +1,5 @@
- ```
- __          __  _     _____  _      
- \ \        / / | |   |  __ \(_)     
-  \ \  /\  / /__| |__ | |  | |_ _ __ 
-   \ \/  \/ / _ \ '_ \| |  | | | '__|
-    \  /\  /  __/ |_) | |__| | | |   
-     \/  \/ \___|_.__/|_____/|_|_|   
-    
- ```
-                                                     
-
+![WebDir](https://user-images.githubusercontent.com/84629651/131908078-4c73ce5a-8301-4520-b87b-45f74e112e68.png)
+                          
 # Description:
   the WebPathScanner is a web-based security tool that try to find some interesting files and folder
   
