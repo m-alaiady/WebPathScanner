@@ -1,5 +1,4 @@
 ![made-with-sphinx-doc](https://img.shields.io/badge/Made%20with-python-1f425f.svg)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/requests.svg)](https://pypi.org/project/requests/)
 [![GitHub release](https://img.shields.io/github/v/release/m-alaiady/WebPathScanner.svg)](https://GitHub.com/m-alaiady/WebPathScanner/releases)
 
 
