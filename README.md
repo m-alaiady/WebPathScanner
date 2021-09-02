@@ -1,5 +1,5 @@
 ![made-with-sphinx-doc](https://img.shields.io/badge/Made%20with-python-1f425f.svg)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+![PyPI pyversions](https://img.shields.io/pypi/pyversions/3.x)
 
 
 ![WebPathScanner](https://user-images.githubusercontent.com/84629651/131908917-27ec946a-2a39-47f1-bd72-36ab35582696.png)
