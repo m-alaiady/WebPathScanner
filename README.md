@@ -1,5 +1,5 @@
 ![made-with-sphinx-doc](https://img.shields.io/badge/Made%20with-python-1f425f.svg)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.org/project/requests/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/requests.svg)](https://pypi.org/project/requests/)
 
 
 
