@@ -1,3 +1,12 @@
+ __          __  _     _____  _      
+ \ \        / / | |   |  __ \(_)     
+  \ \  /\  / /__| |__ | |  | |_ _ __ 
+   \ \/  \/ / _ \ '_ \| |  | | | '__|
+    \  /\  /  __/ |_) | |__| | | |   
+     \/  \/ \___|_.__/|_____/|_|_|   
+                                     
+                                     
+
 # Description:
   the WebPathScanner is a web-based security tool that try to find some interesting files and folder
   
