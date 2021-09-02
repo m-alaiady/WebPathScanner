@@ -4,7 +4,7 @@
 # Usage:
   1 - ``` git clone https://github.com/m-alaiady/WebPathScanner ```
   
-  2 - ``` python3 WebDir.py -h ```
+  2 - ``` python3 WebDir.py -u <URL> [<options>] ```
   
   ## Options
   ```
