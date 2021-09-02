@@ -19,8 +19,8 @@
 # Features
 1. Allowing Multiprocessing
 2. Allowing status code filtering
-3 - save output to a file
-4 - open source code
+3. save output to a file
+4. open source code
 # Demo
 [![asciicast](https://asciinema.org/a/qApEBaU8PpN0ZWapuMtUZsQ8n.svg)](https://asciinema.org/a/qApEBaU8PpN0ZWapuMtUZsQ8n)
 
