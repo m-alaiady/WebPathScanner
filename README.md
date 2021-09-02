@@ -17,10 +17,10 @@
   -h show help page
   ```
 # Features
-1. Allowing Multiprocessing
+1. WebPathScanner uses Multiprocessing
 2. Allowing status code filtering
-3. save output to a file
-4. open source code
+3. Saving output to any file
+4. Pure Python
 # Demo
 [![asciicast](https://asciinema.org/a/qApEBaU8PpN0ZWapuMtUZsQ8n.svg)](https://asciinema.org/a/qApEBaU8PpN0ZWapuMtUZsQ8n)
 
