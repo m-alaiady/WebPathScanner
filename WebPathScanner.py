@@ -37,7 +37,7 @@ def counting_payloads(payload_path):
   if payload_checker(payload_path):
     for line in open(payload_path): count += 1
   else:
-    print('[!] WebDir didn\'t find the payload!')
+    print('[!] WebPathScanner didn\'t find the payload!')
     sys.exit(1)
 
 def payload_checker(payload_path):
@@ -132,10 +132,10 @@ def run(URL,status_code,payload_path):
         try:
           pool.starmap(fetch, [(session,URL + '/' + payload,status_code) for payload in payloads] )
         except KeyboardInterrupt:
-          print('\nWebDir Quitting .. Bye ')
+          print('\nWebPathScanner Quitting .. Bye ')
           pool.terminate()
         else:
-          print('\nWebDir Finished\n')
+          print('\nWebPathScanner Finished\n')
 
 @timer(1,1)
 def main():
@@ -144,11 +144,11 @@ def main():
   if user_payload == '':
     counting_payloads(default_payload)
     payload_path = default_payload
-    print("[~] WebDir using the default payload")
+    print("[~] WebPathScanner using the default payload")
   else:
     counting_payloads(user_payload)
     payload_path = user_payload
-    print("[~] WebDir using the user payload")
+    print("[~] WebPathScanner using the user payload")
   if URL != '':
     if url_validator(URL):
       try:
@@ -156,10 +156,10 @@ def main():
         request = requests.get(URL,timeout=timeout)
         run(URL,filter_statusCode,payload_path)
       except (requests.ConnectionError, requests.Timeout) as exception:
-        print('WebDir did not find the target')
+        print('WebPathScanner did not find the target')
     else:
       print('[' + Fore.RED + 'FATAL' + Style.RESET_ALL + ']' + ' Please provide a valid URL')
       sys.exit(1)
   else:
-    print('Usage: python3 WebDir.py -u URL [<options>]\n\noptions:\n  -p select a specific payload\n  -c filter status code\n  -o save output to file\n  -h show this page\n')
+    print('Usage: python3 WebPathScanner.py -u URL [<options>]\n\noptions:\n  -p select a specific payload\n  -c filter status code\n  -o save output to file\n  -h show this page\n')
     sys.exit(1)
