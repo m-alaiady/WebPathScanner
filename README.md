@@ -14,9 +14,9 @@
   the WebPathScanner is a web-based security tool that tries to find some interesting files and folder
   
 # Usage:
-  1 - ``` git clone https://github.com/m-alaiady/WebPathScanner ```
-  2 - ``` cd WebPathScanner ```
-  3 - ``` python3 WebPathScanner.py -u <URL> [<options>] ```
+  1.  ``` git clone https://github.com/m-alaiady/WebPathScanner ```
+  2.  ``` cd WebPathScanner ```
+  3.  ``` python3 WebPathScanner.py -u <URL> [<options>] ```
   
   ## Options
   ```
