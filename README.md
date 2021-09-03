@@ -11,7 +11,7 @@
        
                           
 # Description:
-  the WebPathScanner is a web-based security tool that try to find some interesting files and folder
+  the WebPathScanner is a web-based security tool that tries to find some interesting files and folder
   
 # Usage:
   1 - ``` git clone https://github.com/m-alaiady/WebPathScanner ```
