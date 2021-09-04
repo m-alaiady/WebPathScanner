@@ -143,11 +143,11 @@ def main():
   if user_payload == '':
     counting_payloads(default_payload)
     payload_path = default_payload
-    print("[~] WebPathScanner using the default payload")
+    print(Fore.LIGHTMAGENTA_EX + "[~] WebPathScanner using the default payload" + Style.RESET_ALL)
   else:
     counting_payloads(user_payload)
     payload_path = user_payload
-    print("[~] WebPathScanner using the user payload")
+    print(Fore.LIGHTYELLOW_EX + "[~] WebPathScanner using the user payload" + Style.RESET_ALL)
   if URL != '':
     if url_validator(URL):
       try:
@@ -155,7 +155,7 @@ def main():
         request = requests.get(URL,timeout=timeout)
         run(URL,filter_statusCode,payload_path)
       except (requests.ConnectionError, requests.Timeout) as exception:
-        print('WebPathScanner did not find the target')
+        print(Fore.RED + 'WebPathScanner did not find the target' + Style.RESET_ALL)
     else:
       print('[' + Fore.RED + 'FATAL' + Style.RESET_ALL + ']' + ' Please provide a valid URL')
       sys.exit(1)
