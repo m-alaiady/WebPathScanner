@@ -2,7 +2,6 @@
 [![made-by-python](https://img.shields.io/badge/Made%20with-python-blue.svg)](https://www.python.org/)
 ![Supported Python versions](https://img.shields.io/badge/python%20version-3-red.svg)
 [![GitHub release](https://img.shields.io/github/v/release/m-alaiady/WebPathScanner.svg)](https://GitHub.com/m-alaiady/WebPathScanner/releases)
-[![GitHub issues](https://img.shields.io/github/issues/m-alaiady/WebPathScanner.svg)](https://GitHub.com/m-alaiady/WebPathScanner/issues/)
 
                                                        
 # **WebPathScanner**          
